@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <!-- interface-css-provider-path style.css -->
+  <object class="GtkWindow" id="root">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Dining Pilosophers Problem</property>
+    <property name="resizable">False</property>
+    <property name="default_width">1200</property>
+    <property name="default_height">600</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="grid">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="icon1">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/phil-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="icon2">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/phil-2.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="icon3">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/phil-3.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="icon4">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/phil-4.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">360</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="icon5">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/phil-5.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">480</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="table">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/table.png</property>
+          </object>
+          <packing>
+            <property name="x">100</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="stick1">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopstick1.png</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="stick2">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopstick2.png</property>
+          </object>
+          <packing>
+            <property name="x">390</property>
+            <property name="y">202</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="stick3">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopstick3.png</property>
+          </object>
+          <packing>
+            <property name="x">340</property>
+            <property name="y">370</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="stick4">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopstick4.png</property>
+          </object>
+          <packing>
+            <property name="x">150</property>
+            <property name="y">370</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="stick5">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopstick5.png</property>
+          </object>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">202</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="phil1">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/person1.png</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="hand1">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopsticks-hands.png</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="phil4">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/person4.png</property>
+          </object>
+          <packing>
+            <property name="y">320</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="phil2">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/person2.png</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">330</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="hand2">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopsticks-hands.png</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">400</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="hand4">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopsticks-hands2.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">390</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="hand3">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopsticks-hands.png</property>
+          </object>
+          <packing>
+            <property name="x">260</property>
+            <property name="y">460</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="phil3">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/person3.png</property>
+          </object>
+          <packing>
+            <property name="x">225</property>
+            <property name="y">430</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="phil5">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/person5.png</property>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="hand5">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/chopsticks-hands2.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">110</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="l1">
+            <property name="width_request">120</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <style>
+              <class name="meals"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">960</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="l2">
+            <property name="width_request">120</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <style>
+              <class name="meals"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">960</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="l3">
+            <property name="width_request">120</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <style>
+              <class name="meals"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">960</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="l4">
+            <property name="width_request">120</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <style>
+              <class name="meals"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">960</property>
+            <property name="y">360</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="l5">
+            <property name="width_request">120</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <style>
+              <class name="meals"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">960</property>
+            <property name="y">480</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s1">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/thinking-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s2">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/thinking-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s3">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/thinking-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s4">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/thinking-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">360</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s5">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/thinking-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">480</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s6">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/stomach-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s7">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/stomach-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s8">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/stomach-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s9">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/stomach-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">360</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s10">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/stomach-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">480</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s11">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/bowl-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s12">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/bowl-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s13">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/bowl-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">240</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s14">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/bowl-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">360</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="s15">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/bowl-1.png</property>
+          </object>
+          <packing>
+            <property name="x">1080</property>
+            <property name="y">480</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <style>
+      <class name="w"/>
+    </style>
+  </object>
+</interface>
